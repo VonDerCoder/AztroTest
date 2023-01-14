@@ -1,0 +1,10 @@
+.text-center {
+    margin: 15% auto;
+    display: flex;
+    justify-content: center;
+  }
+
+.form-group {
+    width: 500px;
+    margin: -12% auto;
+}

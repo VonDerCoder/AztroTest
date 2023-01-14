@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Daily Horoscope</h1>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <div class="form-group">
+          <select class="form-control" id="sign">
+            <option value="aries">Aries</option>
+            <option value="taurus">Taurus</option>
+            <option value="gemini">Gemini</option>
+            <option value="cancer">Cancer</option>
+            <option value="leo">Leo</option>
+            <option value="virgo">Virgo</option>
+            <option value="libra">Libra</option>
+            <option value="scorpio">Scorpio</option>
+            <option value="sagittarius">Sagittarius</option>
+            <option value="capricorn">Capricorn</option>
+            <option value="aquarius">Aquarius</option>
+            <option value="pisces">Pisces</option>
+          </select>
+  <button onclick="getHoroscope()" type="submit">Get Horoscope</button>
+  <p id="output"></p>
+  
+  <script src="index.js"></script>
+</body>
+</html>
